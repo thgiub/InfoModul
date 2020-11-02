@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.kamaz.itis.learnmodul">
+
+    <application
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity android:name="ru.quantor.launcherkamaz.HelpActivity">
+
+        </activity>
+    </application>
+
+</manifest>

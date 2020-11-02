@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".HelperMainFragment">
+    <ImageView
+        android:id="@+id/imageViewQrCode"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_qr_code"
+        app:layout_constraintEnd_toStartOf="@+id/textViewHelp2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewHelp2"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageView
+        android:id="@+id/imageViewTruck"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:src="@mipmap/ic_truck"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSugg1"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSugg1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewSugg1" />
+
+    <ImageView
+        android:id="@+id/imageViewQueston"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_question"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSugg2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTruck"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTruck"
+        app:layout_constraintTop_toTopOf="@+id/textViewSugg2" />
+
+    <ImageView
+        android:id="@+id/imageViewThumbUp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/ic_thumb_up"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSugg3"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewQueston"
+        app:layout_constraintStart_toStartOf="@+id/imageViewQueston"
+        app:layout_constraintTop_toTopOf="@+id/textViewSugg3" />
+
+
+    <TextView
+        android:id="@+id/textViewHelp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_help"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHelp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_decription"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHelp1"
+        app:layout_constraintStart_toStartOf="@+id/textViewHelp1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHelp1" />
+
+
+    <TextView
+        android:id="@+id/textViewHelp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_phone_sentence"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHelp2"
+        app:layout_constraintStart_toStartOf="@+id/textViewHelp2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHelp2" />
+
+    <TextView
+        android:id="@+id/textViewSugg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_sugg1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/lin"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/lin"
+        app:layout_constraintTop_toBottomOf="@+id/lin" />
+
+    <TextView
+        android:id="@+id/textViewSugg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_sugg2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewSugg1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSugg1" />
+
+    <TextView
+        android:id="@+id/textViewSugg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_sugg3"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewSugg2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSugg2" />
+
+    <TextView
+        android:id="@+id/textViewWebSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:fontFamily="@font/pfdindisplaypro"
+        android:text="@string/text_webSite"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSugg2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_phone_number"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewQrCode"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHelp3"
+        app:layout_constraintStart_toStartOf="@+id/textViewHelp3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHelp3">
+
+        <ImageView
+            android:id="@+id/imageViewPhone"
+            android:layout_width="25dp"
+            android:layout_height="0dp"
+            android:src="@mipmap/ic_phone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/pfdindisplaypro"
+            android:text="@string/text_phone_number"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageViewPhone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

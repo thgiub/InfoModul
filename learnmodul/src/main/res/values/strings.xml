@@ -1,0 +1,519 @@
+<resources>
+    <string name="app_name">LauncherKamaz</string>
+    <string name="am">AM</string>
+    <string name="fm">FM</string>
+    <string name="na">N/A</string>
+    <string name="usb">USB 1</string>
+    <string name="usb2">USB 2</string>
+    <string name="sd">SD</string>
+    <string name="internalStorage">Internal storage</string>
+    <string name="aux">AUX</string>
+    <string name="album">Album</string>
+    <string name="photo">Photo</string>
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="device">Device</string>
+    <string name="internal_storage">Storage</string>
+    <string name="file_path_not">Could not find file path</string>
+    <string name="file_not">File not found</string>
+    <string name="system_error">System error</string>
+    <string name="switchOn">On</string>
+    <string name="switchOff">Off</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="gallery">Gallery</string>
+    <string name="st_phone">Phone</string>
+    <string name="st_timedata">Date and time</string>
+    <string name="st_screen">Screen</string>
+    <string name="st_sound">Sound</string>
+    <string name="st_memory">Memory</string>
+    <string name="st_language">Language</string>
+    <string name="main_navi">Navigation</string>
+    <string name="main_radio">Radio</string>
+    <string name="main_media">Media</string>
+    <string name="main_help">help</string>
+
+    <string name="main_menu">Menu</string>
+    <string name="main_internet">Internet</string>
+    <string name="main_phone">Phone</string>
+    <string name="main_resent">Recent</string>
+    <string name="main_contact">Contacts</string>
+    <string name="main_diagnostic">Diagnostics</string>
+    <string name="main_climatic">Climate</string>
+    <string name="downloadFile">Loading</string>
+
+    <string name="compositions">Compositions</string>
+    <string name="compositionss">Compositions</string>
+    <string name="genres">Genres</string>
+    <string name="albums">Albums</string>
+    <string name="performers">Performers</string>
+    <string name="search">Search</string>
+    <string name="radio_add_save">Save</string>
+    <string name="devices">Devices</string>
+    <string name="auxEnabled">AUX mode is on</string>
+    <string name="notUsbDevice">USB device not found</string>
+    <string name="notSdDevice">SD card not found</string>
+    <string name="rus">Russian</string>
+    <string name="eng">English</string>
+
+
+    <string name="repeat_none">Normal mode</string>
+    <string name="repeat_all_list">Repeat list</string>
+    <string name="repeat_track">Repeat track</string>
+    <string name="repeat_random">Random mode</string>
+    <string name="repeat_random_off">Normal mode</string>
+    <string name="update">Update</string>
+    <string name="currentOsVersion">Current OS version:</string>
+    <string name="currentMCUVersion">Current MCU version:</string>
+    <string name="currentBTVersion">Current BT version:</string>
+    <string name="currentUIVersion">Current UI version:</string>
+    <string name="availableVersion">Available version:</string>
+    <string name="currentMacAddress">MAC address WI-FI:</string>
+    <string name="mrgsrKeyExistStatus">Key for voice recognizer system:</string>
+    <string name="mrgsrKeyExistTrueStatus">Installed</string>
+    <string name="mrgsrKeyExistFalseStatus">Not installed</string>
+
+
+    <string name="delete">Delete</string>
+    <string name="deleteImage">Delete picture</string>
+    <string name="create">Create</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
+    <string name="rename">Rename</string>
+    <string name="write_station_name">Enter the name of the radio station</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="operation_cancel">Operation canceled</string>
+    <string name="radio_station_add_success">Radio station added</string>
+    <string name="radio_auto">Auto</string>
+
+    <string name="new_folder">New folder</string>
+    <string name="write_folder_name">Enter the folder name</string>
+    <string name="name_is_path">Folder name</string>
+    <string name="device_name">Device name</string>
+    <string name="folder_no_create">Folder not created</string>
+    <string name="folder_is_already_exist">This folder already exists</string>
+    <string name="cellular">Mobile phone</string>
+    <string name="urban">City phone</string>
+    <string name="phone_number">Phone number</string>
+    <string name="write_phone_number">Enter a phone number</string>
+    <string name="on_bluetooth">Bluetooth on</string>
+    <string name="search_bluetooth">Device search</string>
+    <string name="paired_bluetooth">Paired devices</string>
+    <string name="bluetooth_not_on">Bluetooth is disabled</string>
+    <string name="bluetooth_is_off">Bluetooth is disabled</string>
+    <string name="please_turn_on_bluetooth">Please turn on \nW Power</string>
+
+    <string name="copyng">Copying</string>
+    <string name="moving">Moving</string>
+    <string name="deleting">Delete</string>
+
+    <string name="notConnect">No connection established</string>
+    <string name="activeSpeak">Have an active conversation</string>
+    <string name="notActiveSpeak">No active conversations</string>
+    <string name="accessibility_service_description">Service</string>
+    <string name="not_saves_radio_stations">There are no saved radio stations</string>
+    <string name="wait_loading_media">Wait, the media list is loading!</string>
+    <string name="unknown_number">Unknown number</string>
+    <string name="callCancelled">Call completed</string>
+
+    <string name="kamaz_prospect">Catalog</string>
+    <string name="kamaz_usage">KAMAZ instruction manual</string>
+    <string name="kamaz_service">Service center</string>
+    <string name="kamaz_dealers">Dealers</string>
+    <string name="kamaz_itis">ITIS Guide</string>
+    <string name="incoming_call">Incoming\ncall</string>
+    <string name="outgoing_call">Outgoing\ncall</string>
+    <string name="connecting">Connecting ...</string>
+    <string name="connResultSucess">Connected to the device</string>
+    <string name="openFileDialog">Select an application to open the file.</string>
+    <string name="installAppPermissions">Application installation is available only from the KAMAZ application store</string>
+
+    <string name="reminder">Reminder</string>
+
+    <!--calendar view-->
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">Done</string>
+    <string name="material_calendar_negative_button">Back</string>
+
+    <!-- Calendar TimePicker -->
+    <string name="scroll_hms_picker_hours_label">H</string>
+    <string name="scroll_hms_picker_minutes_label">M</string>
+    <string name="scroll_hms_picker_seconds_label">S</string>
+
+    <!-- Календарь -->
+    <string name="January">January</string>
+
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="btn_notice_clear">Cleaning</string>
+
+    <!-- timeaction -->
+    <string name="notification_msg">Bon Voyage!</string>
+    <string name="os">System</string>
+
+    <string name="map">Map</string>
+    <string name="mcu">MCU</string>
+    <string name="mcu_a">MCU_A</string>
+    <string name="mcu_d">MCU_D</string>
+    <string name="update_os">System update</string>
+    <string name="reboot_now">Reboot now</string>
+    <string name="reboot_later">Restart later</string>
+    <string name="reboot_prompt">Update complete, do I need to restart?</string>
+    <string name="selectFirmware">Select firmware file</string>
+    <string name="selectFirmwareType">Select the type of firmware</string>
+    <string name="none_device">Missing</string>
+
+
+    <!-- storage -->
+    <string name="degree_point">°</string>
+
+    <!-- climatic -->
+    <string name="climatic_timer">Timer</string>
+    <string name="climatic_mode_action">OFF</string>
+    <string name="climatic_mode_auto">AUTO</string>
+    <string name="climatic_mode">A/C</string>
+    <string name="autoHeating_mode">Auto reheat mode</string>
+    <string name="settings_minus">-</string>
+
+
+    <!-- Начало настройки -->
+    <string name="settings_plus">+</string>
+    <string name="wifiStateSearch">Search for WiFi networks...</string>
+    <!-- Wifi -->
+    <string name="datetime_date_text">Date</string>
+    <!-- Дата и время -->
+    <string name="datetime_time_text">Time</string>
+    <string name="datetime_time_format_text">24 hour format</string>
+    <string name="datetime_time_zone_from_bis_text">Use network time zone</string>
+    <string name="datetime_time_zone_text">Timezone</string>
+    <string name="display_brightness">Brightness</string>
+    <!-- Экран -->
+    <string name="display_night_brightness">Night brightness</string>
+    <string name="soundClick">Click sound</string>
+    <!-- Звук -->
+    <string name="voice_call">Ringtone</string>
+    <string name="voice_notices">Notifications</string>
+    <string name="voice_multimedia">Multimedia</string>
+    <string name="media">Media</string>
+    <string name="storage_in_device">Inner memory</string>
+    <!-- Память -->
+    <string name="storage_in_sd">SD card</string>
+    <string name="storage_in_usb_first">USB slot 1</string>
+    <string name="storage_in_usb_second">USB slot 2</string>
+    <string name="eq">Equalizer</string>
+    <!-- Обновление -->
+    <!-- Конец настроек -->
+
+    <string name="soundStage">Sound stage</string>
+    <string name="reset">Reset</string>
+    <string name="ultraBass">Ultra Bass</string>
+    <string name="ultraBassCheck">Ultra Bass:</string>
+    <string name="ultraBassLevel">Gain level</string>
+    <string name="audioSystemResetSuccess">Factory audio settings restored</string>
+    <string name="eq_normal">Normal</string>
+
+    <string name="eq_pop">Pop</string>
+    <string name="eq_rock">Rock</string>
+    <string name="eq_jazz">Jazz</string>
+    <string name="eq_classic">Classic</string>
+    <string name="eq_custom">Custom</string>
+    <string name="error">Error</string>
+    <string name="notFilesForUpdate">No files for firmware</string>
+    <string name="turnOnNfc">Turn on NFC module</string>
+    <string name="notTurnOnNfc">NFC module was not enabled</string>
+    <string name="youCanNotHeard">You can not be heard...</string>
+    <string name="say">Speak ...</string>
+    <string name="i_listen_you">I listen to you ...</string>
+    <string name="recognize">Processing...</string>
+    <string name="recognizeNotSuccess">Could not recognize</string>
+    <string name="rgsrIniting">Module is initializing, wait!</string>
+    <string name="heater">Heater</string>
+    <string name="pzd">WH</string>
+    <string name="temperatureHeatingCoolant">Coolant temperature</string>
+    `
+    <string name="temperatureCabinAir">air temperature</string>
+    <string name="workTimeHint">Working time</string>
+    <string name="mode">Mode</string>
+
+    <string name="addPzhdTimer">Add on timer</string>
+    <string name="pzhd_timer_start">Delayed start timer</string>
+    <string name="pzhd_timer_end">Delayed shutdown timer</string>
+    <string name="save">Save</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="mo">Mo</string>
+
+    <string name="tu">Tu</string>
+    <string name="we">We</string>
+    <string name="th">Th</string>
+    <string name="fr">Fr</string>
+    <string name="sa">Sa</string>
+    <string name="su">Su</string>
+    <string name="calm">Calm</string>
+
+    <string name="northern">N</string>
+    <string name="northeastern">NE</string>
+    <string name="oriental">E</string>
+    <string name="southeastern">SE</string>
+    <string name="southern">S</string>
+    <string name="southwestern">SW</string>
+    <string name="west">W</string>
+    <string name="northwestern">NE</string>
+    <string name="mmРgAtm">mm.Hg</string>
+
+    <string name="hour">h</string>
+    <string name="weatherOn">Weather on</string>
+    <string name="noPhoneNumber">No phone number</string>
+    <string name="mc2">m/s²</string>
+    <string name="litre">l</string>
+    <string name="degreeCelsius">°C</string>
+    <string name="voltage">V</string>
+    <string name="amper">A</string>
+    <string name="kpa">kPa</string>
+    <string name="rpm">rpm</string>
+    <string name="kmh">km/h</string>
+    <string name="km">km</string>
+    <string name="metre">m</string>
+    <string name="bar">bar</string>
+    <string name="kg">kg</string>
+    <string name="tons">tons</string>
+    <string name="volt">Volt</string>
+    <string name="batteryVoltage">Battery voltage</string>
+    <string name="batterAmperage">Current battery</string>
+    <string name="batterSoc">State of charge</string>
+    <string name="voiceBatteryVoltageStartPrefix">The current voltage of the onboard network</string>
+    <string name="unknownError">Unknown error</string>
+
+    <string name="contactSC">To resolve the error, contact the SC KAMAZ</string>
+    <string name="navitelNotFound">Navitel application is not installed!</string>
+    <string name="diagnosticsEngine">Engine</string>
+
+    <string name="diagnosticsTirePressure">Tire pressure</string>
+    <string name="diagnosticsAxleLoad">Axle load</string>
+    <string name="diagnosticsFaults">Faults</string>
+    <string name="diagnosticsService">Service</string>
+    <string name="diagnosticsBattery">Battery</string>
+    <string name="diagnosticsBrakes">Brakes and pneumatic system</string>
+    <string name="diagnosticsParameterName">Diagnostics</string>
+    <string name="condition">Condition</string>
+    <string name="mustBeRefilled">Must be refilled</string>
+    <string name="statusOk">OK</string>
+    <string name="needToCool">Need to cool</string>
+    <string name="reducePressure">It is necessary to reduce the pressure</string>
+    <string name="movementProhibitionRaiseEngineOilTemperature">Movement Prohibition! Raise engine oil temperature!</string>
+    <string name="movementProhibitionLowerEngineOilTemperature">Movement Prohibition! Lower engine oil temperature!</string>
+    <string name="batteryUndercharging">Battery undercharging</string>
+    <string name="batteryRecharge">Battery recharge</string>
+    <string name="videoInMotionProhibited">It is strictly forbidden to watch the video while driving.</string>
+    <string name="attention">Attention</string>
+    <string name="pzhdStartingWaitCallBack">Startup command sent. Wait for a response.</string>
+    <string name="pzhdOffWaitCallBack">Shutdown command sent. Wait for a response.</string>
+    <string name="brakePads">Pads</string>
+    <string name="pneumaticSystem">Pneumatic system</string>
+    <string name="semitrailer">Semitrailer</string>
+    <string name="tractor">Tractor</string>
+    <string name="recordToService">Maintenance Record</string>
+    <string name="notFaults">Faults not found</string>
+    <string name="oil">Oil</string>
+    <string name="coolant">Coolant</string>
+    <string name="appNotInstall">Application not installed!</string>
+    <string name="degreesCelsiuSpeakPrefix">degrees celsius</string>
+    <string name="currentTemperatureStreet">Outdoor temperature</string>
+    <string name="currentDate">The current date</string>
+    <string name="currentTime">Current time</string>
+    <string name="today">Today</string>
+    <string name="normalizePressureTiresWheel">It is necessary to normalize\nthe tire pressure.</string>
+    <string name="lowPressure">Low pressure</string>
+    <string name="normalPressure">Normal pressure</string>
+    <string name="recomendedActions">Recommended actions</string>
+    <string name="description">Description</string>
+    <string name="errorCode">DTC error code:</string>
+    <string name="errorRegistrationDate">Registration Date:</string>
+    <string name="tripMilleage">Trip distance</string>
+    <string name="fullMilleage">Total vehicle distance</string>
+    <string name="diagnostics_documents">Documents</string>
+    <string name="loseDevice">Forget</string>
+    <string name="uses">Used</string>
+    <string name="of">Of</string>
+    <string name="gb">GB</string>
+    <string name="setTimeIncorrect">Time set is not true!</string>
+    <string name="calendarNo">No</string>
+    <string name="calendarOnSetTime">At the time of the onset</string>
+    <string name="in5Min">5 minutes before</string>
+    <string name="in15Min">15 minutes before</string>
+    <string name="in30Min">30 minutes before</string>
+    <string name="in1Hour">1 hour before</string>
+    <string name="in2Hour">2 hour before</string>
+    <string name="in1Day">1 day before</string>
+    <string name="in2Day">2 day before</string>
+    <string name="in1Week">1 week before</string>
+    <string name="noEvents">No events</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="clickDeleteWarniing">Click Delete if you are sure of it.</string>
+    <string name="realyDeleteEventWarning">Do you really want to delete this event?</string>
+    <string name="calendarEnd">End</string>
+    <string name="calendarStart">Start</string>
+    <string name="calendarDate">Date</string>
+    <string name="calendarTitle">Title</string>
+    <string name="edit">Edit</string>
+    <string name="calendarTextNoInputed">No text entered!</string>
+    <string name="wifiConnectedTo">You are connected to</string>
+    <string name="wifiConnectingdTo">Network connection to</string>
+
+    <string name="wifiConnecting">Connection</string>
+    <string name="wifiSignalNice">Excellent</string>
+    <string name="wifiSignalGood">Good</string>
+    <string name="wifiSignalNormal">Average</string>
+    <string name="wifiSignalBad">Low</string>
+    <string name="wifiNetworkList">Network list</string>
+    <string name="wifiEnterNetworkPassword">Enter network password</string>
+    <string name="wifiNetworkSearch">Search for WiFi networks ...</string>
+    <string name="wifiOff">WiFi off</string>
+    <string name="wifiLogOut">You want to log out</string>
+    <string name="action">Action</string>
+    <string name="logout">Log Out</string>
+    <string name="wifiSignalLevel">Signal strength</string>
+    <string name="wifiShowPassoerd">Show password</string>
+    <string name="copiedToClipboard">Copied to clipboard</string>
+    <string name="fileNotFount">File not fount</string>
+    <string name="notUpdatesLauncher">No updates available</string>
+    <string name="offRadio">Off</string>
+    <string name="engineTotalHours">Engine Total Hours of Operation</string>
+    <string name="apply">Apply</string>
+    <string name="timerNotEnabled">Timer not enabled</string>
+    <string name="pleaseWaitCopyFiles">Please wait! Copy the data!</string>
+    <string name="pzhdProcessCommandWait">Engine preheater processes the request, wait and repeat later!</string>
+    <string name="errorFromPzhd">Error in engine preheater system</string>
+    <string name="close">Close</string>
+    <string name="menuApps">Apps</string>
+    <string name="menu_pzhd">WH</string>
+    <string name="automaticalliDateTime">Automatic date and time</string>
+    <string name="disableAutomaticMode">Disable auto mode</string>
+    <string name="currentComposition">Current composition</string>
+    <string name="currentRadioStation">Radio station</string>
+    <string name="connect">Connect</string>
+    <string name="thisIsVideoNotSupport">This video is not supported</string>
+    <string name="notDataFromPzhd">No data from WH</string>
+    <string name="startingPzhdPlsWait">WH launch in progress, please wait</string>
+    <string name="notAppsOpeningFile">No applications to open this document.</string>
+    <string name="resetAudioConfirm">Reset audio settings?</string>
+    <string name="yes">Yes</string>
+    <string name="thisIsOnlyForInformation">All parameters are for informational purposes only.</string>
+    <string name="wifiDisconnected">Disconnected from the WiFi network</string>
+    <string name="connected">Connected</string>
+    <string name="forgetWifi">Forget this net</string>
+    <string name="selectThisWifi">Select network</string>
+    <string name="passwordFormatWrong">Invalid password format</string>
+    <string name="fillInRequiredFields">Fill in required fields</string>
+    <string name="password">Password</string>
+    <string name="SecurityType">Security</string>
+    <string name="ssidname">Network SSID</string>
+    <string name="ouAreConnectedThisNeywork">You are already connected to this network.</string>
+    <string name="about">About</string>
+    <string name="currentOsBuildVersion">Build version</string>
+    <string name="mb">MB</string>
+    <string name="kb">KB</string>
+    <string name="ram">RAM</string>
+    <string name="resetToStartSettings">Restore factory settings?\nThe device will automatically restart!</string>
+    <string name="restoreFactory">Reset to factory</string>
+    <string name="linkName">Link name</string>
+    <string name="writeLinkName">Enter link title</string>
+    <string name="link">Link</string>
+    <string name="enterLink">Enter link</string>
+    <string name="firstDisconnectHeater">Turning on is impossible, first turn off the pre-heater mode</string>
+    <string name="offWhBeforeOnReheat">Before starting the mode "reheat" it is necessary to turn off the WH</string>
+    <string name="sendedCommanReheat">The command to start the heater has been sent. Wait for a response.</string>
+    <string name="couldNotTurnOffWH">Could not turn off the WH</string>
+    <string name="couldNotTurnOnWH">Failed to start WH</string>
+    <string name="couldNotChangeModeWH">Failed to apply new mode</string>
+    <string name="waitCurrentStatus">Getting current status ...</string>
+    <string name="processingRequest">Processing request...</string>
+    <string name="whStartsUp">WH starts up ...</string>
+    <string name="whWorks">WH works</string>
+    <string name="whTurnOff">WH turns off ...</string>
+    <string name="serialNumber">Serial number:</string>
+    <string name="pzhdNotConnect">No connection with WH</string>
+    <string name="nextMaintenanceRecomended">We recommend that you carry out Maintenance №{num} through:</string>
+    <string name="power">Power</string>
+    <string name="heaterWorkModePower">by power</string>
+    <string name="heaterWorkModeTemperature">by temperature</string>
+    <string name="heaterWorkModeVentilation">by ventilation</string>
+    <string name="timeLeft">Left time</string>
+    <string name="setToWorkTime">Set up working time</string>
+    <string name="setDelayTime">Set delayed start time</string>
+    <string name="notFount">not found</string>
+    <string name="heaterDelayTimeHourValue">in %s hours</string>
+    <string name="heaterDelayTimeMinuteValue">%s minutes later</string>
+    <string name="starting">Starting</string>
+    <string name="purge">Purge</string>
+    <string name="heating">Heating</string>
+    <string name="ventilation">Ventilation</string>
+    <string name="heaterOff">Heater off</string>
+    <string name="heaterNotResponding">Heater is not responding</string>
+    <string name="heaterFailedStartTryAgain">Failed to start, try again?</string>
+    <string name="failedToTurnOffTryAgain">Failed to turn off, try again?</string>
+    <string name="checkBisTimeToHeaterCorrectlyWork">Check the device date and time for the timer to work correctly.</string>
+    <string name="delayedStart">Delayed start</string>
+    <string name="memoryErased">Memory erased</string>
+    <string name="heaterStartsWait">The heater starts up. Wait, please!</string>
+    <string name="heaterTurnOffWait">The heater turns off. Wait, please!</string>
+    <string name="deviceProcessingAnotherRequest">The device is processing another request!</string>
+    <string name="heaters">Heater</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot password</string>
+    <string name="auth">Log in</string>
+    <string name="user">User</string>
+    <string name="tryAgain">Please try again later.</string>
+    <string name="tasks">Tasks</string>
+    <string name="selectAction">Select an action</string>
+    <string name="radio_scan">Scan</string>
+    <string name="time">Time</string>
+    <string name="tarckerInfo">Information by tracker</string>
+    <string name="lastPackage">Last package</string>
+    <string name="trackerFirwareVersion">Firmware version</string>
+    <string name="nUnknown">Unknown</string>
+    <string name="trackerInfoTime">Sync time</string>
+    <string name="damagedFile">The file is damaged</string>
+    <string name="saveSettingsSuccess">Settings saved successfully</string>
+    <string name="saveSettingsThrow">Settings not saved</string>
+    <string name="waitServiceIsLoading">Wait, the service starts!</string>
+    <string name="car_device">Equipment</string>
+    <string name="endingPzhdPlsWait">WH is purging, please wait</string>
+    <string name="text_help">Помощь</string>
+
+
+    <string name="text_decription">ОКАЗАНИЕ ПОМОЩИ ВОДИТЕЛЯМ АВТОТЕХНИКИ КАМАЗ</string>
+    <string name="text_phone_sentence">(звонок по России бесплатный)</string>
+    <string name="text_phone_number">8-800-555-00-99</string>
+    <string name="text_sugg1">Эвакуация автотехники.</string>
+    <string name="text_sugg2">Помощь в вопросах, на которые не смог ответить дилер.</string>
+    <string name="text_sugg3">Оценка качества сервиса.</string>
+    <string name="text_webSite">Сайт www.kamaz.ru</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="custom_calendar_weekdays">
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+        <item>Su</item>
+    </string-array>
+
+</resources>

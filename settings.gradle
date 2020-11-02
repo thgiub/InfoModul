@@ -1,0 +1,4 @@
+include ':learnmodul'
+include ':app'
+
+rootProject.name = "InfoModul"
